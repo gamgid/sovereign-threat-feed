@@ -1,0 +1,141 @@
+{
+  "schema": "sovereign.0xcert-primary-review.v1",
+  "reviewedPairs": [
+    {
+      "chain": "Ethereum",
+      "address": "0x46a2a474d4c22bf1ae4f8fa55da7a58673472be2",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Ethereum",
+      "address": "0xdbd7fbe5b7cd56f99c059dc24052009d2626125c",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Base",
+      "address": "0x5ff35703c22533398d5c7ce7acd32a04ac8462da",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Arbitrum",
+      "address": "0x2ff67cddd9ff45e0b47957d9d7c19b0732f9c514",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Arbitrum",
+      "address": "0x373c415ef034bb620e8d720afd2ace26bca13529",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Ink",
+      "address": "0xdcd65e3a8f3b73c7e2f40dbab1fb95dbef871d6c",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": false
+    },
+    {
+      "chain": "Plasma",
+      "address": "0x3ef438c34ce51a697a24247fe033c4562c94f0fd",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": false
+    },
+    {
+      "chain": "BNB Chain",
+      "address": "0x0c894c253c62eda066197011efd73b632dc96263",
+      "primarySource": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "role": "malicious spender/drainer",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0337",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Arbitrum",
+      "address": "0x5dc8df8d0d6cfae0443bb8d9eacdfbb72b2ef322",
+      "primarySource": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0339",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Polygon",
+      "address": "0x648508c5e95e7c9ac2380672f87d60ebb1dae49f",
+      "primarySource": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0339",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Ethereum",
+      "address": "0x648508c5e95e7c9ac2380672f87d60ebb1dae49f",
+      "primarySource": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0339",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "BNB Chain",
+      "address": "0x82328b24ed97d6e627b6257d125cb3271c5aa2d5",
+      "primarySource": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0339",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "BNB Chain",
+      "address": "0x2143a65fc4721aea20b4ebf99e775b1e6cc9a1a7",
+      "primarySource": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0339",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Optimism",
+      "address": "0xa5970e20d011a1c8406bbf9315389f6d831b261d",
+      "primarySource": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0339",
+      "includedInSixChainNormalization": true
+    },
+    {
+      "chain": "Base",
+      "address": "0xa5970e20d011a1c8406bbf9315389f6d831b261d",
+      "primarySource": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "advisory": "https://www.0xcert.com/advisory/0xCERT-2026-0339",
+      "includedInSixChainNormalization": true
+    }
+  ],
+  "reviewedExactPairs": 15,
+  "normalizedReviewedPairs": 13,
+  "reviewMeaning": "Manual source-to-feed attribution cross-check, not an on-chain forensic proof or a full-feed review.",
+  "negativeControl": {
+    "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+    "role": "legitimate Permit2 contract, not attacker",
+    "source": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+    "presentInFeed": false
+  },
+  "unresolved": [
+    "No independently verified key lifecycle",
+    "No verified chain coverage contract",
+    "No observed or authenticated false-positive withdrawal lifecycle"
+  ],
+  "allRecordsApproved": false,
+  "releaseApproved": false
+}

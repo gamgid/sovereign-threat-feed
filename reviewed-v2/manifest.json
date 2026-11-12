@@ -1,0 +1,12 @@
+{
+  "feedVersion": 1794482775000,
+  "files": {
+    "NOTICE.txt": "fc7e3062280524b84f51bda2b016520f8a009fc5959f0fd43f8aba0656e4ac5e",
+    "README.md": "70716274bf76fcc0b7e79736f977dfb34c64eedf6786c4ca1e55f598135c0682",
+    "evidence/Docs/evidence/zeroxcert-2026-11-12/primary-review.json": "5268944f36c7a72b37fc54765b1430824ce47b73c547a3396340097f8bb193d1",
+    "payload.json": "12740f78028aea72e36ff10a51c0177de6dafb1c3dad5c80f8ad2d5934c93b07",
+    "registry.json": "13d77a4a7e5f71b5e607a8f9084c03bff72d50b993b552175cd2286decacecac",
+    "threat-feed.json": "3d86479c2e95a8ed8e36b39fa192778e9a1c969e17d1feaab62e3a1cb37050b9"
+  },
+  "schema": "sovereign.reviewed-site.v1"
+}
