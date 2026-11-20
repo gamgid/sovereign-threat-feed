@@ -5,27 +5,35 @@
     "chains": [
       {
         "chainID": 1,
-        "reviewedAt": 1794482775000
+        "reviewedAt": 1795185559000
       },
       {
         "chainID": 10,
-        "reviewedAt": 1794482775000
+        "reviewedAt": 1795185559000
       },
       {
         "chainID": 56,
-        "reviewedAt": 1794482775000
+        "reviewedAt": 1795185559000
       },
       {
         "chainID": 137,
-        "reviewedAt": 1794482775000
+        "reviewedAt": 1795185559000
       },
       {
         "chainID": 8453,
-        "reviewedAt": 1794482775000
+        "reviewedAt": 1795185559000
       },
       {
         "chainID": 42161,
-        "reviewedAt": 1794482775000
+        "reviewedAt": 1795185559000
+      },
+      {
+        "chainID": 84532,
+        "reviewedAt": 1795185559000
+      },
+      {
+        "chainID": 11155111,
+        "reviewedAt": 1795185559000
       }
     ]
   },
@@ -33,7 +41,14 @@
     "source": "https://www.0xcert.com/iocs",
     "license": "CC BY 4.0",
     "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
-    "changes": "Selected, primary-reviewed exact-chain incident addresses; normalized to lowercase."
+    "changes": "Selected, primary-reviewed exact-chain incident addresses; normalized to lowercase.",
+    "additionalSources": [
+      {
+        "source": "https://safedep.io/blog/mathmain-encrypted-loader",
+        "changes": "Exact-chain malicious infrastructure facts from SafeDep primary analysis; article not reproduced.",
+        "licenseNote": "The 0xCERT CC BY 4.0 attribution above applies only to the 0xCERT selection, not SafeDep content."
+      }
+    ]
   },
   "events": [
     {
@@ -203,6 +218,32 @@
         "path": "Docs/evidence/zeroxcert-2026-11-12/primary-review.json",
         "sha256": "5268944f36c7a72b37fc54765b1430824ce47b73c547a3396340097f8bb193d1",
         "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08"
+      }
+    },
+    {
+      "sequence": 14,
+      "action": "block",
+      "chainID": 84532,
+      "address": "0xac0bfc4c48a679b667732128278eacba1c191894",
+      "reviewedAt": 1795185559000,
+      "reason": "Malware command-and-control contract; mathmain/math-universe deployment A",
+      "evidence": {
+        "path": "Docs/evidence/reviewed-2026-11-20/primary-review.json",
+        "sha256": "aa4d59656a0f96e70d6299165f39eaf6d89e9a5cef966c5ac9e8437a60ad1da7",
+        "sourceURL": "https://safedep.io/blog/mathmain-encrypted-loader"
+      }
+    },
+    {
+      "sequence": 15,
+      "action": "block",
+      "chainID": 11155111,
+      "address": "0xe390863dac96a7118c71227c2b099b50cf602d31",
+      "reviewedAt": 1795185559000,
+      "reason": "Malware command-and-control contract; mathsbase 1.0.1 deployment B",
+      "evidence": {
+        "path": "Docs/evidence/reviewed-2026-11-20/primary-review.json",
+        "sha256": "aa4d59656a0f96e70d6299165f39eaf6d89e9a5cef966c5ac9e8437a60ad1da7",
+        "sourceURL": "https://safedep.io/blog/mathmain-encrypted-loader"
       }
     }
   ]

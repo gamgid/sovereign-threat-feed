@@ -1,0 +1,158 @@
+{
+  "schema": "sovereign.manual-incident-review.v1",
+  "reviewedAt": 1795185559000,
+  "scope": "curated-known-incidents",
+  "method": "Primary source documents re-read for exact chain/address attribution. Historical incident status reviewed; no new on-chain activity, exhaustive discovery, or wallet safety assertion.",
+  "previousRegistrySHA256": "13d77a4a7e5f71b5e607a8f9084c03bff72d50b993b552175cd2286decacecac",
+  "sourceReceipts": {
+    "iocs.json": {
+      "url": "https://www.0xcert.com/iocs.json",
+      "exit": 0,
+      "sha256": "daf42e2b5b6f4e7681d021c145b9a540762ea5bf753e505a54d41c1e2b57050d",
+      "observedAt": "2026-11-20T14:32:20.211409+00:00"
+    },
+    "acryptos.md": {
+      "url": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08.md",
+      "exit": 0,
+      "sha256": "2a66a667d9a3a0e253804baa983affe9bce3d5091506832a54e34401ef7360df",
+      "observedAt": "2026-11-20T14:32:20.303031+00:00"
+    },
+    "across.txt": {
+      "url": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM/export?format=txt",
+      "exit": 0,
+      "sha256": "bd63b12cc95db05b039132000cef33d01393711e6d7fa2fae00dc02989e82bd0",
+      "observedAt": "2026-11-20T14:32:21.531979+00:00"
+    },
+    "safedep.html": {
+      "url": "https://safedep.io/blog/mathmain-encrypted-loader",
+      "exit": 0,
+      "sha256": "962d4fb4a8e136baed2f6c1613ce290a050e654376deb2f400d9fd53150d4e42",
+      "observedAt": "2026-11-20T14:35:34.729855+00:00"
+    }
+  },
+  "retainedRecords": [
+    {
+      "chainID": 1,
+      "address": "0x46a2a474d4c22bf1ae4f8fa55da7a58673472be2",
+      "role": "malicious spender/drainer",
+      "sourceURL": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 1,
+      "address": "0x648508c5e95e7c9ac2380672f87d60ebb1dae49f",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 1,
+      "address": "0xdbd7fbe5b7cd56f99c059dc24052009d2626125c",
+      "role": "malicious spender/drainer",
+      "sourceURL": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 10,
+      "address": "0xa5970e20d011a1c8406bbf9315389f6d831b261d",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 56,
+      "address": "0x0c894c253c62eda066197011efd73b632dc96263",
+      "role": "malicious spender/drainer",
+      "sourceURL": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 56,
+      "address": "0x2143a65fc4721aea20b4ebf99e775b1e6cc9a1a7",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 56,
+      "address": "0x82328b24ed97d6e627b6257d125cb3271c5aa2d5",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 137,
+      "address": "0x648508c5e95e7c9ac2380672f87d60ebb1dae49f",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 8453,
+      "address": "0x5ff35703c22533398d5c7ce7acd32a04ac8462da",
+      "role": "malicious spender/drainer",
+      "sourceURL": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 8453,
+      "address": "0xa5970e20d011a1c8406bbf9315389f6d831b261d",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 42161,
+      "address": "0x2ff67cddd9ff45e0b47957d9d7c19b0732f9c514",
+      "role": "malicious spender/drainer",
+      "sourceURL": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 42161,
+      "address": "0x373c415ef034bb620e8d720afd2ace26bca13529",
+      "role": "malicious spender/drainer",
+      "sourceURL": "https://docs.google.com/document/d/1IW3_cSr9fANfxHSXgVnzQ89Bitqv00Xbk-8bhx3L3kM",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    },
+    {
+      "chainID": 42161,
+      "address": "0x5dc8df8d0d6cfae0443bb8d9eacdfbb72b2ef322",
+      "role": "exploiter / proceeds holder as described by incident owner",
+      "sourceURL": "https://docs.acryptos.com/post-mortem-univ3-family-vault-exploit-2026-11-08",
+      "decision": "retain: explicit chain attribution still present in primary report"
+    }
+  ],
+  "addedRecords": [
+    {
+      "chainID": 84532,
+      "address": "0xac0bfc4c48a679b667732128278eacba1c191894",
+      "role": "Malware command-and-control contract; mathmain/math-universe deployment A",
+      "sourceURL": "https://safedep.io/blog/mathmain-encrypted-loader",
+      "decision": "block known malicious infrastructure on named testnet only"
+    },
+    {
+      "chainID": 11155111,
+      "address": "0xe390863dac96a7118c71227c2b099b50cf602d31",
+      "role": "Malware command-and-control contract; mathsbase 1.0.1 deployment B",
+      "sourceURL": "https://safedep.io/blog/mathmain-encrypted-loader",
+      "decision": "block known malicious infrastructure on named testnet only"
+    }
+  ],
+  "finding": "SafeDep reports two smart contracts used by the decrypted implant on different testnets. These are malicious infrastructure indicators, not proof of a direct wallet-drainer transfer. Do not copy a label across chains.",
+  "exclusions": [
+    "0xCERT snapshot has no explicit Sepolia/Base Sepolia records: not used as testnet provenance.",
+    "Across Permit2 router 0x000000000022d473030f116ddee9f6b43ac78ba3 is not an attacker IOC.",
+    "Unsupported Ink/Plasma and networkless proceeds entries are not admitted.",
+    "Demo reports, synthetic fixtures, article code, RPC credentials and bot identifiers are not feed evidence."
+  ],
+  "limitations": [
+    "One selected known incident per added testnet is not comprehensive coverage.",
+    "Not-listed means absent from this finite registry, never safe.",
+    "Read-only source review only: no contract calls, transactions, malware execution or production signing.",
+    "Raw articles are retained locally only by receipt; no article text or scripts are redistributed."
+  ],
+  "signed": false,
+  "published": false,
+  "releaseApproved": false
+}
