@@ -3,3 +3,7 @@ Source: 0xCERT https://www.0xcert.com/iocs ; CC BY 4.0
 License: https://creativecommons.org/licenses/by/4.0/
 Changes: primary-reviewed exact-chain selection, lowercase normalization.
 Reviews and corrections are manual. Rebuilding does not renew freshness.
+This local bundle is NOT approval to publish or activate the source.
+Additional factual source: SafeDep https://safedep.io/blog/mathmain-encrypted-loader
+Only exact-chain infrastructure facts selected; article not reproduced.
+The 0xCERT CC BY 4.0 attribution does not license SafeDep content.

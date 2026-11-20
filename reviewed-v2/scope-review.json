@@ -1,0 +1,17 @@
+{
+  "schema": "sovereign.reviewed-scope-change.v1",
+  "previousRegistrySHA256": "13d77a4a7e5f71b5e607a8f9084c03bff72d50b993b552175cd2286decacecac",
+  "registrySHA256": "6213e710071ae430457584c2e54440f95bbcc5e2b42317de222b6bb6e8db541e",
+  "addedChainIDs": [
+    84532,
+    11155111
+  ],
+  "reviewedAt": 1795185559000,
+  "scope": "curated-known-incidents",
+  "rationale": "Add only exact-chain malicious infrastructure from SafeDep primary analysis to the manually maintained known-incident list. This is not comprehensive threat coverage or permission to publish, enable mainnet, or bypass any transfer guard.",
+  "evidence": {
+    "path": "Docs/evidence/reviewed-2026-11-20/primary-review.json",
+    "sha256": "aa4d59656a0f96e70d6299165f39eaf6d89e9a5cef966c5ac9e8437a60ad1da7",
+    "sourceURL": "https://safedep.io/blog/mathmain-encrypted-loader"
+  }
+}

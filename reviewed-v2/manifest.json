@@ -1,12 +1,1 @@
-{
-  "feedVersion": 1794482775000,
-  "files": {
-    "NOTICE.txt": "fc7e3062280524b84f51bda2b016520f8a009fc5959f0fd43f8aba0656e4ac5e",
-    "README.md": "70716274bf76fcc0b7e79736f977dfb34c64eedf6786c4ca1e55f598135c0682",
-    "evidence/Docs/evidence/zeroxcert-2026-11-12/primary-review.json": "5268944f36c7a72b37fc54765b1430824ce47b73c547a3396340097f8bb193d1",
-    "payload.json": "12740f78028aea72e36ff10a51c0177de6dafb1c3dad5c80f8ad2d5934c93b07",
-    "registry.json": "13d77a4a7e5f71b5e607a8f9084c03bff72d50b993b552175cd2286decacecac",
-    "threat-feed.json": "3d86479c2e95a8ed8e36b39fa192778e9a1c969e17d1feaab62e3a1cb37050b9"
-  },
-  "schema": "sovereign.reviewed-site.v1"
-}
+{"files":{"NOTICE.txt":"5b09e55748d263b462b4f4cd26b433b1c37bc8c71ee76136a5c6be0afa7f6dfd","baseline.json":"3d86479c2e95a8ed8e36b39fa192778e9a1c969e17d1feaab62e3a1cb37050b9","evidence/Docs/evidence/reviewed-2026-11-20/primary-review.json":"aa4d59656a0f96e70d6299165f39eaf6d89e9a5cef966c5ac9e8437a60ad1da7","evidence/Docs/evidence/zeroxcert-2026-11-12/primary-review.json":"5268944f36c7a72b37fc54765b1430824ce47b73c547a3396340097f8bb193d1","payload.json":"f52f86c2ece0fba85eea5ac324ddba481a0b8134b9c270ebe6f04854100d0dd5","previous-registry.json":"13d77a4a7e5f71b5e607a8f9084c03bff72d50b993b552175cd2286decacecac","registry.json":"6213e710071ae430457584c2e54440f95bbcc5e2b42317de222b6bb6e8db541e","review.json":"23d6bd0851b30c80b72f0ac3dcec6ba40fafd312f068ca6095f938f34eda3eab","scope-review.json":"f10f164ac40ca8339e3b1166755d2f543fe7337b3c78e79c37c94ef08fa6067c","threat-feed.json":"c316739953c93cd839ce030cab55a423264a931197b2ff7a2c9a9128e5fa0855"}}
